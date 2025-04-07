@@ -90,7 +90,8 @@
             <div class="content">
                 <h2>About Weather </h2>
                 <p>  In weather we can explore data such as temperature, precipitation, and forecasts. You can also check weather insights and alerts to help farmers make informed decisions based on current and upcoming weather conditions.</p>
-                <a href="http://localhost:8501">Show Crop Predection
+                <a href=" http://localhost:5500">
+                    <button> Show Weather</button>
                 </a>
                 
             </div>
@@ -101,7 +102,8 @@
             <div class="content">
                 <h2> Crop Predection </h2>
                 <p>To make crop prediction focuses on enhancing user-friendly interfaces and dashboards that simplify data interpretation for farmers. Additionally, integrating  crop type ,soil type,concentration of Elements like Phosphores,Potassium,Nitrogen ultimately increasing farmers' confidence in their decisions.</p>
-                <a href="hthttp://localhost:8501">Show Crop Predection
+                <a href="http://localhost:8501">
+                    <button> Show crop_prediction </button>
                 </a>
 
             </div>
@@ -121,7 +123,8 @@
             <div class="content">
                 <h2>fertilisers</h2>
                 <p>Crop diseases are impairments in plants caused by pathogens such as fungi, bacteria, viruses, and nematodes, which can significantly affect their growth and yield. Effective management and prevention strategies are essential to minimize crop loss and ensure agricultural productivity</p>
-                <a href= "http://127.0.0.1:5000">Show fertilisers
+                <a href= "http://127.0.0.1:5000">
+                    <button> Show Fertilizer</button>
                 </a>
             </div>
         </div>
@@ -170,72 +173,29 @@
             <div class="images">
                 <img src="faq.jpg" alt="">
             </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                
+                 <h3>How We Can Help You?</h3>
+                    
+                    <p>We May Help You By Providing Information About Weather,
+                         Crop Prediction, And Diseases Occur In Crops.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What Are The Best Crops To Grow In My Region?</h3>
+                    <p>You Can Check Our Crop Prediction Feature.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What Are The Most Common Crop Diseases You Can Find?</h3>
+                    <p>Generally Common Diseases Include Wilt, Root Rot, Powdery Mildew, Rust.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How Can I Contact Customer Support?</h3>
+                    <p>By Email Id, Phone No.</p>
+                </div>
+            </div>
 
-            <div class="subject-container">
-                <!-- faq start  -->
-                <div class="subject">
-                    <!-- faq question  -->
-                    <div class="subject-header">
-                        <span>+</span>
-                        <h2>How we can help you?</h2>
-                    </div>
-                    <!-- faq answer  -->
-                    <div class="subject-body">
-                        <p>We may help you by providing information about weather ,crop prediction ,and diseases occur in crops.</p>
-                    </div>
-                </div>
-                <!-- faq end  -->
-                <!-- faq start  -->
-                <div class="subject">
-                    <!-- faq question  -->
-                    <div class="subject-header">
-                        <span>+</span>
-                        <h2>Who can benefit from this website?</h2>
-                    </div>
-                    <!-- faq answer  -->
-                    <div class="subject-body">
-                        <p>So,The answer is Farmer  mainly</p>
-                    </div>
-                </div>
-                <!-- faq end  -->
-                <!-- faq start  -->
-                <div class="subject">
-                    <!-- faq question  -->
-                    <div class="subject-header">
-                        <span>+</span>
-                        <h2>What are the best crops to grow in my region?</h2>
-                    </div>
-                    <!-- faq answer  -->
-                    <div class="subject-body">
-                        <p>You can check our crop predection feature</p>
-                    </div>
-                </div>
-                <!-- faq end  -->
-                <!-- faq start  -->
-                <div class="subject">
-                    <!-- faq question  -->
-                    <div class="subject-header">
-                        <span>+</span>
-                        <h2>What are most common crop disease you can find?</h2>
-                    </div>
-                    <!-- faq answer  -->
-                    <div class="subject-body">
-                        <p>Generally common disease include like wilt, root rot, powdery mildew,rust </p>
-                    </div>
-                </div>
-                <!-- faq end  -->
-                <!-- faq start  -->
-                <div class="subject">
-                    <!-- faq question  -->
-                    <div class="subject-header">
-                        <span>+</span>
-                        <h2>How can I contact customer support?</h2>
-                    </div>
-                    <!-- faq answer  -->
-                    <div class="subject-body">
-                        <p>by email id , phone no.</p>
-                    </div>
-                </div>
+           <!---->
                 <!-- faq end  -->
                 <!-- faq start  -->
                 
@@ -250,7 +210,7 @@
     <section class="footer">
 
         <!-- footer heading  -->
-        <h1>created by | Tech Titans Group | all right reserved</h1>
+        <h1>Created by | Tech Titans Group | all right reserved</h1>
 
         <!-- footer icons  -->
         <div class="icons">
@@ -434,7 +394,6 @@ html {
     font-weight: 400;
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
 }
-
 .home button:hover {
     letter-spacing: .1rem;
     color: var(--wight);
@@ -457,6 +416,7 @@ html {
     align-items: center;
     justify-content: space-around;
     padding: 0 4rem;
+    display:flex;
 }
 
 .about .row .content {
@@ -533,7 +493,9 @@ html {
 /* service heading & text  */
 .service .row .content {
     text-align: left;
-    border-radius: 1rem;
+    border-radius: 1rem; 
+    button {
+    color: #f43409;}
 }
 
 .service .row .content h2 {
